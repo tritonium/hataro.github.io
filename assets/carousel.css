@@ -20,6 +20,8 @@ body {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  text-shadow: 0px 3px 1px #000;
+  background-color: hsla(0, 0%, 45.1%, 0.5);
 }
 
 /* Declare heights because of positioning of img element */
@@ -62,7 +64,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -81,7 +83,7 @@ body {
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
-    line-height: 1.4;
+    line-height: 1.4rem;
   }
 
   .featurette-heading {
